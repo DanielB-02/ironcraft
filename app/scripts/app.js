@@ -1,30 +1,27 @@
 'use strict';
 
-var LB = angular.module('LB', [
+var IC = angular.module('IC', [
     'ngRoute'
 ]);
 
-LB.config(['$routeProvider',
+IC.config(['$routeProvider',
     function($routeProvider) {
         $routeProvider.
 
-        when('/lesvorm', {
-            templateUrl: 'partials/lesvorm.html'
+        when('/minigames', {
+            templateUrl: 'partials/minigames.html'
         }).
-        when('/over-mij', {
-            templateUrl: 'partials/over-mij.html'
+        when('/creative', {
+            templateUrl: 'partials/creative.html'
         }).
-        when('/opleidingen', {
-            templateUrl: 'partials/opleidingen.html'
+        when('/survival', {
+            templateUrl: 'partials/survival.html'
         }).
-        when('/lessen', {
-            templateUrl: 'partials/lessen.html'
-        }).
-        when('/contact', {
-            templateUrl: 'partials/contact.html'
+        when('/home', {
+            templateUrl: 'partials/home.html'
         }).
         otherwise({
-            redirectTo: '/over-mij'
+            redirectTo: '/home'
         });
 
 }]);

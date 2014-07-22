@@ -1,25 +1,19 @@
 <!doctype html>
-<html lang="en" ng-app="LB">
+<html lang="en" ng-app="IC">
 
 <head>
-    <title>Yoga & Meditatie | Leonie Bor</title>
+    <title>IronCraft</title>
     <link rel="stylesheet/less" type="text/css" href="styles/less/bootstrap/bootstrap.less">
-    <link rel="stylesheet/less" type="text/css" href="styles/less/yoga.less?version=2">
+    <link rel="stylesheet/less" type="text/css" href="styles/less/ironcraft.less?version=2">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <script type="text/javascript" src="vendor/less/less-1.7.0.min.js"></script>
     <script type="text/javascript" src="vendor/angularjs-1.2.9/angular.min.js"></script>
     <script type="text/javascript" src="vendor/angularjs-1.2.9/angular-route.min.js"></script>
     <script type="text/javascript" src="vendor/ui-bootstrap/ui-bootstrap-tpls-0.11.0.min.js"></script>
     <script src="scripts/app.js"></script>
-    <link href='http://fonts.googleapis.com/css?family=Belleza' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <!--<link href='http://fonts.googleapis.com/css?family=Belleza' rel='stylesheet' type='text/css'>-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
-    <meta property="og:title" content="Anahata Yoga | Leonie Bor"/>
-    <meta property="og:type" content="article"/>
-    <meta property="og:image" content="img/fb-leonie-bor.png"/>
-    <meta property="og:url" content="http://leonie-bor.com"/>
-    <meta property="og:description" content="Ik geef verschillende lessen: Ashtanga Vinyasa Yoga, Yoga & Pilates en Yoga & Meditatie. In mijn lessen besteed ik veel aandacht aan zowel de meditatieve als de fysieke kant. Je kunt yoga beoefenen om jezelf sterker en rustiger te maken."/>
-
 </head>
 
 <body>
@@ -28,20 +22,22 @@
 
     <div class="row">
 
+        <img src="img/ironcraft-with-iron-ore.png" width="100%" style="margin-left: 8px; margin-bottom: 20px;"/>
+
         <div class="col-xs-12 col-sm-6 col-md-3">
-            <p><a href="#/" class="btn btn-primary btn-lg center-block" role="button"><i class="fa fa-user"></i>&nbsp;&nbsp;Over mijzelf</a></p>
+            <p><a href="#/" class="btn btn-primary btn-lg center-block" role="button"><i class="fa fa-cube"></i>&nbsp;&nbsp;Home</a></p>
         </div>
 
         <div class="col-xs-12 col-sm-6 col-md-3">
-            <p><a href="#/opleidingen" class="btn btn-primary btn-lg center-block" role="button"><i class="fa fa-graduation-cap"></i>&nbsp;&nbsp;Opleidingen</a></p>
+            <p><a href="#/survival" class="btn btn-primary btn-lg center-block" role="button"><i class="fa fa-bomb"></i>&nbsp;&nbsp;Survival</a></p>
         </div>
 
         <div class="col-xs-12 col-sm-6 col-md-3">
-            <p><a href="#/lessen" class="btn btn-primary btn-lg center-block" role="button"><i class="fa fa-calendar"></i>&nbsp;&nbsp;Lessen</a></p>
+            <p><a href="#/creative" class="btn btn-primary btn-lg center-block" role="button"><i class="fa fa-home"></i>&nbsp;&nbsp;Creative</a></p>
         </div>
 
         <div class="col-xs-12 col-sm-6 col-md-3">
-            <p><a href="#/contact" class="btn btn-primary btn-lg center-block" role="button"><i class="fa fa-phone"></i>&nbsp;&nbsp;Contact</a></p>
+            <p><a href="#/minigames" class="btn btn-primary btn-lg center-block" role="button"><i class="fa fa-gamepad"></i>&nbsp;&nbsp;Mini-Games</a></p>
         </div>
 
     </div>
@@ -49,15 +45,6 @@
     <div ng-view class="row"></div>
 
 </div>
-
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', 'UA-52174868-1', 'leonie-bor.nl');
-        ga('send', 'pageview');
-    </script>
 
 </body>
 
