@@ -1,0 +1,97 @@
+//@achtergrond-kleur: #A4DDF0;
+//knoppen: #94CDE0;
+//@schaduw-lijn: #88779B;
+
+@knoppen: #8F8120;
+@link: #8F8120;
+@schaduw-lijn: #AEBD2B;
+@body-achtergrond: #DBFEA8;
+@achtergrond-kleur: #BBF16E;
+
+//@knoppen: #4a334f;
+//@link: #35193b;
+//@schaduw-lijn: #d99081;
+//@achtergrond-kleur: #e3cca3;
+//@body-achtergrond: #d8b885;
+
+// Aanpassen in variables.less
+// @container-desktop:            ((750px + @grid-gutter-width));
+// @container-large-desktop:      ((750px + @grid-gutter-width));
+
+blockquote {
+  border-left: 5px solid @achtergrond-kleur;
+}
+
+blockquote footer, blockquote small, blockquote .small {
+  color: @link;
+}
+
+.opleiding a {
+  color: @link;
+  text-decoration: underline;
+}
+
+h1, h2, h3, p, address, div {
+    font-family: 'Belleza', sans-serif;
+}
+
+p, address {
+  font-size: 18px;
+}
+
+body {
+    background-color: @achtergrond-kleur;
+}
+
+.btn-lg {
+  width: 100%;
+  background-color: @knoppen;
+  border-color: @schaduw-lijn;
+  border-radius: 3px;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+  box-shadow: 6px 6px 14px #555;
+}
+
+.btn-lg:hover {
+  background-color: @achtergrond-kleur;
+}
+
+.content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+//  max-width: 750px;
+  margin: 0 auto;
+  background: @body-achtergrond url('/img/boeddha.png');
+}
+
+.me {
+  margin: 0 auto;
+  border-radius: 8px;
+  border: 3px solid @schaduw-lijn;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  box-shadow: 12px 12px 29px #555;
+}
+
+.content h1 {
+  text-align: center;
+}
+
+.opleiding {
+  margin-top: 30px;
+}
+
+.foto-club {
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+  width: 200px;
+  height: 150px;
+  border: 2px solid @schaduw-lijn;
+  box-shadow: 12px 12px 29px #555;
+}
+
+.separator {
+  border-top: 1px solid #bbb;
+}
